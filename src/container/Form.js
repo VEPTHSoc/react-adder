@@ -34,7 +34,7 @@ class Form extends React.Component{
             <Input type="number" changed={(e)=> this.changeHandler1(e.target.value)}></Input>
             <p> + </p>
             <Input type="number" changed= {(e) => this.changeHandler2(e.target.value)}></Input>
-            <Button onClick={this.additonHandler}>=</Button>
+            <Button clicked={this.additonHandler}>=</Button>
             <p>The addition is = {this.state.answer}</p>
             </div>
         )

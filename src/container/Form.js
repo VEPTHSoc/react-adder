@@ -22,7 +22,7 @@ class Form extends React.Component{
             input2: 0
         })
     }
-    additonHandler(){
+    additonHandler=() =>{
         this.setState({
             answer: this.state.input1 + this.state.input2
           });

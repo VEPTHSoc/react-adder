@@ -3,8 +3,8 @@ import Input from '../components/input';
 import Button from '../components/button';
 
 class Form extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state ={
             input1: 0,
             input2: 0,
